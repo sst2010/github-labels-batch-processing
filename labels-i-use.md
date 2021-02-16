@@ -7,7 +7,7 @@ After some research about efficient labels to use in GitHub, I created my own se
 ## Warning !!
 
 - The JSON below can ONLY be used to create those labels.
-- To update or transform your existing labels, refer the update script and modify the JSON accordingly.
+- To update or transform your existing labels, refer to the update script and modify the JSON accordingly.
 
 ## What labels do I use ??
 
@@ -24,7 +24,7 @@ After some research about efficient labels to use in GitHub, I created my own se
 	},
 	{
 		"name": "Status: Not Needed",
-		"description": "Either not useful or effective enough to be worked on or superceeded by other priorities",
+		"description": "Either not useful or effective enough to be worked on or superseded by other priorities",
 		"color": "B9D9EB"
 	},
 	{
@@ -39,17 +39,17 @@ After some research about efficient labels to use in GitHub, I created my own se
 	},
 	{
 		"name": "Status: Feedback Needed",
-		"description": "Can not proceed without feedback from team",
+		"description": "Can not proceed without feedback from the team",
 		"color": "00FFFF"
 	},
 	{
 		"name": "Status: Assets Needed",
-		"description": "Can not proceed without getting assets from team",
+		"description": "Can not proceed without getting assets from the team",
 		"color": "0CAFFF"
 	},
 	{
 		"name": "Status: Help Needed",
-		"description": "Can not proceed without getting help from team ( debugging, testing & so on ... )",
+		"description": "Can not proceed without getting help from the team ( debugging, testing & so on ... )",
 		"color": "6495ED"
 	},
 	{
@@ -109,7 +109,7 @@ After some research about efficient labels to use in GitHub, I created my own se
 	},
 	{
 		"name": "Type: Discussion",
-		"description": "Alright, lets brainstorm the shit out of this clusterfuck",
+		"description": "Alright, let's brainstorm the shit out of this clusterfuck",
 		"color": "7FFF00"
 	},
 	{
