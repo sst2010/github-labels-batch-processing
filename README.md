@@ -7,7 +7,7 @@ Simple, cool scripts to batch process labels for your GitHub organisations and r
 ## Warning !!
 
 - The scripts can potentially delete or update your GitHub labels. Use them with care and ideally after testing on sample repositories.
-- I do not assume any repsonsibility for damage done, if any due to the use of the scripts.
+- I do not assume any responsibility for damage done if any due to the use of the scripts.
 
 ## What is this ??
 
@@ -19,12 +19,12 @@ To save you this pain, you can use the above scripts to get all your labels of a
 
 - Open the list of labels in any repository or the default labels page in organization settings.
 - Open the dev-panel with Ctrl/Cmd + Shift + I.
-- Choose the script you want to use, study it's comments, modify them as needed and then proceed to the next step.
+- Choose the script you want to use, study its comments, modify them as needed and then proceed to the next step.
   - `fetch-labels.js` can be run without any considerations as it doesn't alter anything.
   - `update-labels.js` will need to be carefully studied and provided with input configurations.
-- In the console, paste your updated script and hit `Enter`. The output in console will show the status of the task.
+- In the console, paste your updated script and hit `Enter`. The output in the console will show the status of the task.
 
-## Quick tips to create and use JSONs
+## Quick tips to create and use the JSONs
 
 You're right !! I didn't create those scripts just for fun. First, I created my own set of labels that I wanted to use and then created those scripts to ease my pain. There's another document ( `labels-i-use.md` ) which contains more information about the labels I use and their JSON structure.
 
@@ -37,9 +37,9 @@ I have some tasks planned for this project. I will get to them as soon as you ca
 - Add label detection feature to warn the users beforehand if the script will work or not.
 - Add dry run feature.
 - Add feature to handle multi-page labels ( large amount of labels ) in an automated manner.
-  - Currently, script needs to be run on all label pages manually.
+  - Currently, the script needs to be run on all label pages manually.
 - Add feature to do it for multiple repositories in an automated manner.
-  - Currently, script needs to be run on all repo pages manually.
+  - Currently, the script needs to be run on all repo pages manually.
 - Create a user-friendly browser extension or at least UI interface ( with injected HTML ).
 
 ## Farewell
